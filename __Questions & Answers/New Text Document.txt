@@ -1,0 +1,39 @@
+1) Why we use stdio.h in C ?
+A) stdio. h is the header file for standard input and output. This is useful
+   for getting the input from the user(Keyboard) and output result text to 
+   the monitor(screen).
+__________________________________________________
+
+2) Can we write a C program without using main() ?
+A)  #include<stdio.h>
+    #define fun main
+    int fun(void)
+   {
+	printf("Geeksforgeeks");
+	return 0;
+   }
+___________________________________________________
+
+3) What are different storage class specifiers in C ?
+A) Auto, Register , Static , Extern.
+
+_____________________________________________________
+
+4) Can we print Hello World without using semicolon?
+A) Yes, by using (if loop).
+   if(printf("Hello World"))
+
+____________________________________________________
+
+5) When should we use a pointer?
+A) To get the address of a variable.
+
+
+
+
+_____________________________________________________
+
+6) What is NULL Pointer?
+A) NULL is used to indicate that the pointer doesnt point to a valid 
+   loaction. Ideally, we should initialize pointer as NULL if we dont know 
+   their value at the time of declaration
